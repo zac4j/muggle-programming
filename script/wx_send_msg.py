@@ -27,7 +27,11 @@ def send_msg(msg):
     bot = Bot()
     f = bot.friends().search(friend_name)
     if len(f) == 1:
-        f[0].send_msg(msg)
+        try:
+            f[0].send_msg(msg)
+        except:
+            print('Stop at: ')
+            print(msg)
     else:
         print(friend_name)
         print('Please check this name')

@@ -8,3 +8,9 @@
 - Task Scheduler
 
 ## AI
+- House price prediction
+- Iris knn classify
+
+# Scripts
+- file upzip, folder
+- Wechat message group send
